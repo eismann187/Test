@@ -13,7 +13,7 @@ public class CalculatorAppKuzminTest {
 		c.textField2.setText("3"); //set test in the text field
 		c.textField3.setText("2"); //set test in the text field
 		c.countB.doClick(); //do click on the button
-		assertEquals("3.", c.textField4.getText()); //check results
+		assertEquals("3", c.textField4.getText()); //check results
 		
 	}
 
